@@ -1,2 +1,3 @@
 Bolivar N
+resta a andrex
 Implementar resta de negativos xd
