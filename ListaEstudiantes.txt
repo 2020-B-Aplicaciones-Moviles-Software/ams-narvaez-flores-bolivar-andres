@@ -1,0 +1,5 @@
+0;Bolivar Narvaez;21/04/1997;8.6;1
+2;David Rendon;15/05/1987;9.2;2
+3;Brandon Mbappe;18/05/1997;7.5;2
+4;Bryan Guaman;25/08/1997;9.8;3
+5;Thiago Neymar;13/03/1993;7.8;2

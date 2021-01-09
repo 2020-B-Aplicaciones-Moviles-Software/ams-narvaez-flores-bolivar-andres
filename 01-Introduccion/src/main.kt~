@@ -1,8 +1,19 @@
-import java.util.*
-import kotlin.collections.ArrayList
 
-fun main(){
-    println("xddddd")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
     //declaración de variables
     /*Ejemplo en Java Int = 12;*/
     var edadProfesor = 31
@@ -59,7 +70,7 @@ fun main(){
     //Named Parameters
     calcularSueldo(
             1000.00,
-            //        12.00,
+    //        12.00,
             calculoEspecial = 3
     )
 
@@ -230,12 +241,12 @@ abstract class NumerosJava{
 //instancia.numeroUNo
 //instancia.numeroUNo
 abstract class Numeros(
-        protected var numeroUno: Int,
-        protected var numeroDos: Int
+    protected var numeroUno: Int,
+    protected var numeroDos: Int
 ) {
-    init { //bloque de codigo del constructor primario
-        //println("HOLA")
-    }
+   init { //bloque de codigo del constructor primario
+       //println("HOLA")
+   }
 }
 
 
@@ -303,5 +314,5 @@ class BaseDeDatos(){ //para almacenar los datos
         val datos = arrayListOf<Int>()
     }
 }
-
+*/
 //BaseDeDatos.datos
