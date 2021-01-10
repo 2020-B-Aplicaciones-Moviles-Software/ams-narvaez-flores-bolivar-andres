@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628773092691",
+    "project_id": "moviles-2020b-software-banf",
+    "storage_bucket": "moviles-2020b-software-banf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628773092691:android:d4915c2b7442b86dbc35a6",
+        "android_client_info": {
+          "package_name": "com.example.a03_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628773092691-9cb43hnii3a0jrt4i0h43puobsj8dvke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMaBbF7wMv-4QzkvHoUbSSPMmHV2pYQvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628773092691-9cb43hnii3a0jrt4i0h43puobsj8dvke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
