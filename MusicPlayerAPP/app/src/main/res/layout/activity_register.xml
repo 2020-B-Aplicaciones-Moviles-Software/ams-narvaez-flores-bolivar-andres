@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RegisterActivity">
+
+    <ProgressBar
+        android:id="@+id/pb_registrar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="346dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="32dp"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:indeterminate="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="192dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_correo"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:hint="Correo Electrónico"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_contraseña"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="218dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Registrarse"
+        app:layout_constraintEnd_toEndOf="@+id/et_contraseña"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/et_contraseña"
+        app:layout_constraintTop_toBottomOf="@+id/et_contraseña"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

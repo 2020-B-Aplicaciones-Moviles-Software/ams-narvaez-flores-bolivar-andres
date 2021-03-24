@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "158218970054",
+    "project_id": "moviles-2020b-software-b-8f8f1",
+    "storage_bucket": "moviles-2020b-software-b-8f8f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158218970054:android:cbedcf29f7074ccab088c7",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158218970054-h0lbq4vhk21eml8vfide0aq50lhp3gsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAHTstavKIEZU5iFsj2HvDw_kCKNcsyOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158218970054-h0lbq4vhk21eml8vfide0aq50lhp3gsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158218970054:android:7fe325cd8c0021f1b088c7",
+        "android_client_info": {
+          "package_name": "com.example.firebaseayuda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158218970054-h0lbq4vhk21eml8vfide0aq50lhp3gsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAHTstavKIEZU5iFsj2HvDw_kCKNcsyOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158218970054-h0lbq4vhk21eml8vfide0aq50lhp3gsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
