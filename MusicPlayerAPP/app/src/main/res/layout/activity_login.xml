@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+    <EditText
+        android:id="@+id/et_correoLog"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="168dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_contraseñaLog"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/et_correoLog"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_correoLog"
+        app:layout_constraintTop_toBottomOf="@+id/et_correoLog" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="¿Olvidaste tu contraseña?"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Logearse"
+        app:layout_constraintStart_toStartOf="@+id/btn_Logearse"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Logearse" />
+
+    <TextView
+        android:id="@+id/tv_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="Registrarse"
+        app:layout_constraintEnd_toEndOf="@+id/btn_Logearse"
+        app:layout_constraintStart_toStartOf="@+id/btn_Logearse"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Logearse" />
+
+    <Button
+        android:id="@+id/btn_Logearse"
+        android:layout_width="199dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="228dp"
+        android:text="Iniciar Sesión"
+        app:layout_constraintEnd_toEndOf="@+id/et_contraseñaLog"
+        app:layout_constraintStart_toStartOf="@+id/et_contraseñaLog"
+        app:layout_constraintTop_toBottomOf="@+id/et_contraseñaLog" />
+
+    <ProgressBar
+        android:id="@+id/pb_registrarLog"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="340dp"
+        android:layout_height="17dp"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_seleccionar_ubicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona tu ubicación"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Logearse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_contraseñaLog"
+        app:layout_constraintVertical_bias="0.171" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
